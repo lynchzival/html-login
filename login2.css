@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bgfortoday.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px black;
+
+}
+.container > .form > h1{
+    text-align: center;
+
+}
+.container > .form > .meta{
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.meta i{
+    background-color: rgb(30, 145, 246);
+    border-radius: 50%;
+    color:aliceblue;
+    padding: 8px;
+}
+.form > .text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.us {
+    position: relative;
+    margin: 30px 0;
+    width: 100%;
+    height: 40px;
+}
+.us input{
+    width: 100%;
+    height: 100%;
+    padding: 20px 45px 20px 20px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px black;
+    background: transparent;
+    backdrop-filter: blur(20px);
+
+}
+.us i{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.us input::placeholder{
+    color:rgb(10, 11, 11);
+    font-size: 15px;
+}
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forget label input{
+    font-size: 14.5px;
+    margin-right: 5px;
+}
+.remember-forget a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(67, 150, 244);
+
+}
+.register{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.register p{
+    margin-right: 5px;
+}
+.register a {
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(15, 117, 205);
+    
+}
+.meta i:hover{
+    background-color: aliceblue;
+    color:rgb(30, 145, 246);
+}
+.register a:hover{
+    text-decoration: underline;
+    color :rgb(32, 32, 201);
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+    color :rgb(32, 32, 201);
+}
